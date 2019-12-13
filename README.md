@@ -55,10 +55,10 @@ $ python ../analyze-scripts/2016zhuang418.vor.py gnm.t0-0.h5 A-23 0 10000 10
 ```
 The modeling and analyzing of other two domains follow similar steps, with `A-23` being replaced by `I-14` and `R-11`. After finishing the analysis for those three domains, type the following lines at the root of the repository to compare the results.
 ```
-cd ./gnuplot-scripts
-gnuplot -persist pij.gnu
-gnuplot -persist rgs.gnu
-gnuplot -persist vor.gnu
+$ cd ./gnuplot-scripts
+$ gnuplot -persist pij.gnu
+$ gnuplot -persist rgs.gnu
+$ gnuplot -persist vor.gnu
 ```
 These will reproduce Fig. 2A-C, Fig. 2B and C in our [preprint](), respectively. We have deposited input files for MD simulations in the directories Fig-Sx/MD as well. However, since each genomic region contains more than one epigenetic domains (see Table S1 and S2 in the [preprint]()), analysis on the structures needs additional care. All the output files can be deleted by typing `$ bash ./clearAll.sh` at the repository root. If you are interested in other possible applications of HLM, or have further questions about it, please contact Lei Liu (leiliu2015@163.com).
 
