@@ -15,7 +15,7 @@ where `VoroPath` should be the path to the directory where Voro++ 0.4.6 has been
 
 ### File Description
 - Hi-C/
-  - Kc167-5kb.chrxxxxx.cm (Contact frequency matrices, {*p<sub>ij</sub>*}, measured by [Eagen *et al.*](https://www.pnas.org/content/114/33/8764) with Hi-C, based on which we inferred the values of model parameters {*k<sub>ij</sub>*} and $\chi$. See also Table S1 in our [preprint]() for their genomic positions.)
+  - Kc167-5kb.chrxxxxx.cm (Contact frequency matrices, {*p<sub>ij</sub>*}, measured by [Eagen *et al.*](https://www.pnas.org/content/114/33/8764) with Hi-C, based on which we inferred the values of model parameters {*k<sub>ij</sub>*} and $\chi$. See also Table S1 in our [paper](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaa932/5937089) for their genomic positions.)
  - A-23/ I-14/ R-11/ Fig-S6/ Fig-S7/ Fig-S8/ Fig-S9/
    - MD/
      - [hlm_espresso.tcl](A-23/MD/hlm_espresso.tcl) (A TCL script used as the input of ESPResSo)
@@ -60,5 +60,5 @@ $ gnuplot -persist pij.gnu
 $ gnuplot -persist rgs.gnu
 $ gnuplot -persist vor.gnu
 ```
-These will reproduce Fig. 2A-C, Fig. 2B and C in our [preprint](), respectively. We have deposited input files for MD simulations in the directories Fig-Sx/MD as well. However, since each genomic region contains more than one epigenetic domains (see Table S1 and S2 in the [preprint]()), analysis on the structures needs additional care. All the output files can be deleted by typing `$ bash ./clearAll.sh` at the repository root. If you are interested in other possible applications of HLM, or have further questions about it, please contact Lei Liu (leiliu2015@163.com).
+These will reproduce Fig. 2A-C, Fig. 2B and C in our [paper](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaa932/5937089), respectively. We have deposited input files for MD simulations in the directories Fig-Sx/MD as well. However, since each genomic region contains more than one epigenetic domains (see Table S1 and S2 in the [paper](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaa932/5937089)), analysis on the structures needs additional care. All the output files can be deleted by typing `$ bash ./clearAll.sh` at the repository root. If you are interested in other possible applications of HLM, or have further questions about it, please contact Lei Liu (leiliu2015@163.com).
 
