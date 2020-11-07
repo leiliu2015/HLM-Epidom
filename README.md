@@ -1,6 +1,6 @@
 ## HLM-Epidom
 
-As an application of [HLM](https://github.com/leiliu2015/HLM), we used this polymer-based approach to generate three-dimensional (3D) structures of different epigenetic domains in *Drosophila*, and compared their structural properties. This repository provides necessary files to reproduce most results shown in our recent [study]() (e.g., Fig. 2A-C, Fig. 3B and C), which includes mainly
+As an application of [HLM](https://github.com/leiliu2015/HLM), we used this polymer-based approach to generate three-dimensional (3D) structures of different epigenetic domains in *Drosophila*, and compared their structural properties. This repository provides necessary files to reproduce most results shown in our recent [study](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaa932/5937089) (DOI: doi.org/10.1093/nar/gkaa932) (e.g., Fig. 2A-C, Fig. 3B and C), which includes mainly
 1. Input files of Molecular Dynamics (MD) simulations to generate 3D structures.
 2. Python scripts to analyze the structures.
 
